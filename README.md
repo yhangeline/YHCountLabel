@@ -22,7 +22,7 @@ pod 'YHCountLabel'
 
 ## Author
 
-zhubch, 331385243@qq.com
+yhangeline, 331385243@qq.com
 
 ## License
 

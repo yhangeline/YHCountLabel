@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15BBCC7D3C8EA65E01F71ED808AA3C0E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7667C83FF7019A4A8C57584E75085E /* ReplaceMe.m */; };
-		19F4223FD228557D29F59FB07C2E10F9 /* YHCountLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A8D8D0C3AE92C2E599E266B2664A89 /* YHCountLabel-dummy.m */; };
+		1AEF754F50FD6F22818BF02D6847351F /* YHCountLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6940B6EF22CDEC9A1E95DBDBCE144C7 /* YHCountLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		381D5AE4AE76EA97EFBBB104B050C8A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		43C089B71D8EB1BF775D7A77D29A3B27 /* YHCountLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 786CF07178C6F095AA4CAAD6A9B41B59 /* YHCountLayer.m */; };
 		5D781C87922F64F8629E7FD5A9C0458A /* Pods-YHCountLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C3189C4A86851BF37B948D04C5F8D /* Pods-YHCountLabel_Example-dummy.m */; };
+		6C3E8D6672E42678B4EA615FEF5E1D3F /* YHCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B9194D4C2A9DCF6514AF081078103 /* YHCountLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E467801D4F8212E03F3FB998D03F9D9 /* YHCountLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C6554F525B69E3C6D850F3C755BB4 /* YHCountLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8088A31A7E85607CC6491C542A1F0BC1 /* YHCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9634F291FFE6263F4457614C3F177 /* YHCountLabel.m */; };
 		830B81AF19B20FBFBEED2985AA6D5739 /* Pods-YHCountLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BC4F6175A34D2B52BD0DB4FDE6616 /* Pods-YHCountLabel_Tests-dummy.m */; };
-		89013B5E1210C5C84F30235D1B656EC9 /* YHCountLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D46833C67D287AC49FC35D4E92854E03 /* YHCountLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BF0BA784D51F181306B1A028C9F37C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B5736914DC84938E4680804020453D9C /* Pods-YHCountLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFCE28791752181B58F99C2095D6D37 /* Pods-YHCountLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01BC63815D2F925B5284706B02080A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		DA762C1DDB41A3650E3F8C274BD4182A /* Pods-YHCountLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3935815674C6010C100689C8437F6100 /* Pods-YHCountLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE48D2930E29F1CD289349D82E33734F /* YHCountLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0C61B08D718C753B0182FE1F78668 /* YHCountLabel-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,38 +43,41 @@
 		0A83C274DEFE1750CCE7C05EA1DAB5DE /* Pods-YHCountLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHCountLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		1178F31F942C6DFE43083A88E80C59DB /* Pods-YHCountLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHCountLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		155CEFE902388A4391FBF93A54FF9B78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C1A4B84EFD14D621F4C635DFFEDD430 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		24ABA7C8E7A9EFFBCF2EA0844A323F27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170C6554F525B69E3C6D850F3C755BB4 /* YHCountLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHCountLayer.h; path = YHCountLabel/Classes/YHCountLayer.h; sourceTree = "<group>"; };
+		1DEF2D21393F7638E44418BC439218AB /* YHCountLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHCountLabel.xcconfig; sourceTree = "<group>"; };
 		27C66893F5628063C9D453DEE39621F7 /* Pods-YHCountLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHCountLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3894BA2453AEF78D2F0D050DBF511A69 /* YHCountLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHCountLabel-prefix.pch"; sourceTree = "<group>"; };
 		3935815674C6010C100689C8437F6100 /* Pods-YHCountLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHCountLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		3F7667C83FF7019A4A8C57584E75085E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YHCountLabel/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		49A8D8D0C3AE92C2E599E266B2664A89 /* YHCountLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHCountLabel-dummy.m"; sourceTree = "<group>"; };
+		558B9194D4C2A9DCF6514AF081078103 /* YHCountLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHCountLabel.h; path = YHCountLabel/Classes/YHCountLabel.h; sourceTree = "<group>"; };
 		5FBB312566D194D1C824887A0B08D442 /* Pods-YHCountLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHCountLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61573304E8D3B26E6419DF44CED0678D /* Pods_YHCountLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHCountLabel_Example.framework; path = "Pods-YHCountLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA4FFB9A3D56E9FB6564F4D7EEBAAB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786CF07178C6F095AA4CAAD6A9B41B59 /* YHCountLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHCountLayer.m; path = YHCountLabel/Classes/YHCountLayer.m; sourceTree = "<group>"; };
+		7D019B6432DE04719688F9119A890426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7E1BC4F6175A34D2B52BD0DB4FDE6616 /* Pods-YHCountLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHCountLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		7FF8BC2F05F038C05470EA8AB6F44247 /* Pods-YHCountLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHCountLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		912C8BEEDD6FCCAAEB1C2A50268BFFBC /* YHCountLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHCountLabel.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A66C8CBF349C9EBCDA6D66A5589192D3 /* Pods-YHCountLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHCountLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA31E9A99A067F6C598D312D60B0A61B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AB4821179BEAFA0DAA8C253EA0D00A80 /* Pods-YHCountLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHCountLabel_Example.modulemap"; sourceTree = "<group>"; };
 		ADFCE28791752181B58F99C2095D6D37 /* Pods-YHCountLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHCountLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B57F709353150A7F6D370224E738CA3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C399018C6F5D4658BDF0960194906379 /* YHCountLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHCountLabel.framework; path = YHCountLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B9634F291FFE6263F4457614C3F177 /* YHCountLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHCountLabel.m; path = YHCountLabel/Classes/YHCountLabel.m; sourceTree = "<group>"; };
 		C6E494167DB06E8F7116C66666DBC0E8 /* Pods-YHCountLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHCountLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7444544D65A1671C8562609618A85C3 /* Pods-YHCountLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHCountLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB021E9AE3EA86BD5A4CABBDBF745480 /* Pods_YHCountLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHCountLabel_Tests.framework; path = "Pods-YHCountLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D451AE523545B5AE5DEE13F9DF6EE89A /* Pods-YHCountLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHCountLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D46833C67D287AC49FC35D4E92854E03 /* YHCountLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHCountLabel-umbrella.h"; sourceTree = "<group>"; };
+		D6940B6EF22CDEC9A1E95DBDBCE144C7 /* YHCountLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHCountLabel-umbrella.h"; sourceTree = "<group>"; };
 		D6A9FCA6F81B3B43D639B567AE12A9A3 /* Pods-YHCountLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHCountLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD867672725468B05FF09205E903E51A /* Pods-YHCountLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHCountLabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		E041E6C99225C69CA06B5CF028A682B6 /* YHCountLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHCountLabel.modulemap; sourceTree = "<group>"; };
-		F15A22B2E5349B7DCC7768D1FE5EB648 /* YHCountLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHCountLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F53CA39B0D19101B9B5CC6529B88D0B6 /* YHCountLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHCountLabel-prefix.pch"; sourceTree = "<group>"; };
+		E9F0C61B08D718C753B0182FE1F78668 /* YHCountLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHCountLabel-dummy.m"; sourceTree = "<group>"; };
+		EE6E56496F898DC7B772B6A1EF5DF256 /* YHCountLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHCountLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5DE087A725569AF1B7DD1B207D4A8C3 /* Pods-YHCountLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHCountLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F7158C20CFBEDF582B43F87D4B4C1693 /* Pods-YHCountLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHCountLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F75C3189C4A86851BF37B948D04C5F8D /* Pods-YHCountLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHCountLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		F83A45CD28CC83EF0165EDD2A273BF93 /* YHCountLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHCountLabel.xcconfig; sourceTree = "<group>"; };
+		F79C9C0471BA6877B8395E8E2DCC7267 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +108,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C5A2AEB6B5E97B91D1BAAB87CA13D0B /* YHCountLabel */ = {
-			isa = PBXGroup;
-			children = (
-				3F7667C83FF7019A4A8C57584E75085E /* ReplaceMe.m */,
-				FE0AF731CE9B27CB5103A015B8AD0F59 /* Pod */,
-				FA4F270622977F139B54A9A967CDE654 /* Support Files */,
-			);
-			name = YHCountLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,15 +116,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5E4952562184ADFB0B5F103CF7EBAB92 /* YHCountLabel */ = {
+			isa = PBXGroup;
+			children = (
+				558B9194D4C2A9DCF6514AF081078103 /* YHCountLabel.h */,
+				C6B9634F291FFE6263F4457614C3F177 /* YHCountLabel.m */,
+				170C6554F525B69E3C6D850F3C755BB4 /* YHCountLayer.h */,
+				786CF07178C6F095AA4CAAD6A9B41B59 /* YHCountLayer.m */,
+				7BE18BB93B4362D62019C7BCFD9463EA /* Pod */,
+				FA96E310C202CDDC87D3AD986D221F45 /* Support Files */,
+			);
+			name = YHCountLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7BE18BB93B4362D62019C7BCFD9463EA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7D019B6432DE04719688F9119A890426 /* LICENSE */,
+				F79C9C0471BA6877B8395E8E2DCC7267 /* README.md */,
+				EE6E56496F898DC7B772B6A1EF5DF256 /* YHCountLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E6B50FF0AF95550AB6D1F59C63E771C4 /* Development Pods */,
+				B671538A28B633CC7BD351E9DF48310C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BB003D06AE34BE0C1EE02AB59B180689 /* Products */,
 				FA6CF07DC19D7FBE0818016E0FBF5C24 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		B671538A28B633CC7BD351E9DF48310C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E4952562184ADFB0B5F103CF7EBAB92 /* YHCountLabel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B857A1C8B5157E0D5BF8ED6B77A545C4 /* Pods-YHCountLabel_Tests */ = {
@@ -186,28 +213,6 @@
 			path = "Target Support Files/Pods-YHCountLabel_Example";
 			sourceTree = "<group>";
 		};
-		E6B50FF0AF95550AB6D1F59C63E771C4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1C5A2AEB6B5E97B91D1BAAB87CA13D0B /* YHCountLabel */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FA4F270622977F139B54A9A967CDE654 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				24ABA7C8E7A9EFFBCF2EA0844A323F27 /* Info.plist */,
-				E041E6C99225C69CA06B5CF028A682B6 /* YHCountLabel.modulemap */,
-				F83A45CD28CC83EF0165EDD2A273BF93 /* YHCountLabel.xcconfig */,
-				49A8D8D0C3AE92C2E599E266B2664A89 /* YHCountLabel-dummy.m */,
-				F53CA39B0D19101B9B5CC6529B88D0B6 /* YHCountLabel-prefix.pch */,
-				D46833C67D287AC49FC35D4E92854E03 /* YHCountLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHCountLabel";
-			sourceTree = "<group>";
-		};
 		FA6CF07DC19D7FBE0818016E0FBF5C24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,14 +222,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FE0AF731CE9B27CB5103A015B8AD0F59 /* Pod */ = {
+		FA96E310C202CDDC87D3AD986D221F45 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1C1A4B84EFD14D621F4C635DFFEDD430 /* LICENSE */,
-				AA31E9A99A067F6C598D312D60B0A61B /* README.md */,
-				F15A22B2E5349B7DCC7768D1FE5EB648 /* YHCountLabel.podspec */,
+				6EA4FFB9A3D56E9FB6564F4D7EEBAAB0 /* Info.plist */,
+				912C8BEEDD6FCCAAEB1C2A50268BFFBC /* YHCountLabel.modulemap */,
+				1DEF2D21393F7638E44418BC439218AB /* YHCountLabel.xcconfig */,
+				E9F0C61B08D718C753B0182FE1F78668 /* YHCountLabel-dummy.m */,
+				3894BA2453AEF78D2F0D050DBF511A69 /* YHCountLabel-prefix.pch */,
+				D6940B6EF22CDEC9A1E95DBDBCE144C7 /* YHCountLabel-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHCountLabel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +255,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D261352DEE5FCC391394BF86F0D48950 /* Headers */ = {
+		E0BBCE1ED2D2180D8AD7B2A27C450DB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89013B5E1210C5C84F30235D1B656EC9 /* YHCountLabel-umbrella.h in Headers */,
+				1AEF754F50FD6F22818BF02D6847351F /* YHCountLabel-umbrella.h in Headers */,
+				6C3E8D6672E42678B4EA615FEF5E1D3F /* YHCountLabel.h in Headers */,
+				6E467801D4F8212E03F3FB998D03F9D9 /* YHCountLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +272,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BD3D46BFA76BBFA48E01FA6B363A77A /* Build configuration list for PBXNativeTarget "YHCountLabel" */;
 			buildPhases = (
-				D261352DEE5FCC391394BF86F0D48950 /* Headers */,
-				DB4822FAB9EC3C56DF31B7F42CC1687C /* Sources */,
+				E0BBCE1ED2D2180D8AD7B2A27C450DB5 /* Headers */,
+				86C7DC011545DF7C993C8C28B27B0D7F /* Sources */,
 				4F1FC09A6A3CDD4F7A5EED916B3F79BD /* Frameworks */,
 				7D750BEA4530A851305FCBDC6F9B404F /* Resources */,
 			);
@@ -366,6 +377,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		86C7DC011545DF7C993C8C28B27B0D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE48D2930E29F1CD289349D82E33734F /* YHCountLabel-dummy.m in Sources */,
+				8088A31A7E85607CC6491C542A1F0BC1 /* YHCountLabel.m in Sources */,
+				43C089B71D8EB1BF775D7A77D29A3B27 /* YHCountLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC3BCF885EA29B6DE074296B590B0345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,15 +400,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				830B81AF19B20FBFBEED2985AA6D5739 /* Pods-YHCountLabel_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB4822FAB9EC3C56DF31B7F42CC1687C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15BBCC7D3C8EA65E01F71ED808AA3C0E /* ReplaceMe.m in Sources */,
-				19F4223FD228557D29F59FB07C2E10F9 /* YHCountLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +423,7 @@
 /* Begin XCBuildConfiguration section */
 		0FE6D0AC24434FCE7DDEFFE4AF44FE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83A45CD28CC83EF0165EDD2A273BF93 /* YHCountLabel.xcconfig */;
+			baseConfigurationReference = 1DEF2D21393F7638E44418BC439218AB /* YHCountLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -635,7 +647,7 @@
 		};
 		C2C4EE318E2D42AFCE59898CAC11EEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83A45CD28CC83EF0165EDD2A273BF93 /* YHCountLabel.xcconfig */;
+			baseConfigurationReference = 1DEF2D21393F7638E44418BC439218AB /* YHCountLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

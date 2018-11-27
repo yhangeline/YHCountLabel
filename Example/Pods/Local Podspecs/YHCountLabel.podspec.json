@@ -9,10 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "zhubch": "331385243@qq.com"
+    "yhangeline": "331385243@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhubch/YHCountLabel.git",
+    "git": "https://github.com/yhangeline/YHCountLabel.git",
     "tag": "0.1.0"
   },
   "platforms": {

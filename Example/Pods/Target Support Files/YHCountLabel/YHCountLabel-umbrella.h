@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "YHCountLabel.h"
+#import "YHCountLayer.h"
 
 FOUNDATION_EXPORT double YHCountLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHCountLabelVersionString[];
