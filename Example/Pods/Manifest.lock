@@ -1,0 +1,16 @@
+PODS:
+  - YHCountLabel (0.1.0)
+
+DEPENDENCIES:
+  - YHCountLabel (from `../`)
+
+EXTERNAL SOURCES:
+  YHCountLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHCountLabel: 1347e1f3ed31d6ccafe38c5bb35467d5dc52d72b
+
+PODFILE CHECKSUM: bd3927ace54c677b50be952694eb3eb671cb1f3e
+
+COCOAPODS: 1.5.3

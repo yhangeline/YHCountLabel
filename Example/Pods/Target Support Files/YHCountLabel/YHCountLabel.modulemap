@@ -1,0 +1,6 @@
+framework module YHCountLabel {
+  umbrella header "YHCountLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
