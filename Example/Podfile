@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YHCountLabel_Example' do
+  pod 'YHCountLabel', :path => '../'
+
+  target 'YHCountLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
