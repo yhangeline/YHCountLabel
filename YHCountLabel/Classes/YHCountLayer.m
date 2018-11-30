@@ -26,7 +26,6 @@
 - (void)drawInContext:(CGContextRef)ctx
 {
     [self.countDelegate updateCountNumber:self.yh_number];
-    NSLog(@"%f",self.yh_number);
 }
 
 @end
